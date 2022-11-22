@@ -5,7 +5,6 @@
 
 int main(){
     int start, end;
-    printf("Enter start and end range (with space between them): ");
     scanf("%d %d", &start, &end);
 
     printf("The Armstrong numbers are:");
