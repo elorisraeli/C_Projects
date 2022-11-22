@@ -28,7 +28,7 @@ int main(){
     for (int i = start; i <= end; i++)
     {
         if (isPrime(i)){
-            printf("%d", i);
+            printf(" %d", i);
         }
     }
     
