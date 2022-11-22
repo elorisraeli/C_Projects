@@ -3,7 +3,7 @@
 #include "NumClass.h"
 
 
-int main(){
+void main(){
     int start, end;
     scanf("%d %d", &start, &end);
 
@@ -15,7 +15,7 @@ int main(){
         }
     }
     
-    printf("\nThe Palindrome numbers are:");
+    printf("\nThe Palindrome are:");
     for (int i = start; i <= end; i++)
     {
         if (isPalindrome(i)){
@@ -38,5 +38,5 @@ int main(){
             printf(" %d", i);
         }
     }
-    return 0;
+    printf("\n");
 }
