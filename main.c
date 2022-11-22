@@ -15,7 +15,7 @@ void main(){
         }
     }
     
-    printf("\nThe Palindrome are:");
+    printf("\nThe Palindromes are:");
     for (int i = start; i <= end; i++)
     {
         if (isPalindrome(i)){
